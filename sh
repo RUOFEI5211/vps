@@ -1,5 +1,5 @@
 Hosted File:
-Set-LocalUser -Name "Admin" -Password (ConvertTo-SecureString -AsPlainText "Ruofei5211" -Force)
+Set-LocalUser -Name "Administrator" -Password (ConvertTo-SecureString -AsPlainText "Ruofei5211" -Force)
 Get-LocalUser -Name "Administrator" | Enable-LocalUser 
 Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
 tar xf ngrok.zip
